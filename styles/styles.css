@@ -6,6 +6,11 @@ body {
   margin: 0;
 }
 
+h1 {
+    margin: 60px;
+    padding: 60px;
+}
+
 img {
   display: block;
   width: 100%;
