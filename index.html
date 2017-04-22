@@ -1,57 +1,58 @@
-<!DOCTYPE html>
-    <html>
-    <head>
+<!DOCTYPE HTML>
+<!--
+	Aerial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>DeepHive Corporation</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+        <style>
+        .right {
+            position: absolute;
+            right: 0px;
+            width: 300px;
+        }
+        </style>
+	</head>
+	<body class="loading">
+		<div id="wrapper">
+			<div id="bg"></div>
+			<div id="overlay"></div>
+			<div id="main">
 
-        <meta charset="utf-8">
+				<!-- Header -->
+					<header id="header">
+						<h1>DeepHive Corporation</h1>
+						<p>Live now on Greenlight</p>
+						<nav>
+							<ul>
+								<li><a href="https://goo.gl/yX5cqh" class="icon fa-steam"><span class="label">Greenlight</span></a></li>
+								<li><a href="https://www.youtube.com/watch?v=hAqYYoZUbSI" class="icon fa-youtube"><span class="label">Youtube</span></a></li>
+							</ul>
+						</nav>
+					</header>
 
-    	<meta name="apple-mobile-web-app-capable" content="yes">
-    	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+				<!-- Footer -->
+                    <div class="right">
+    					<footer id="footer">
+    						<span class="copyright">&copy; Dejaime. Design: <a href="http://html5up.net">HTML5 UP</a>.</span>
+    					</footer>
+                    </div>
 
-    	<!-- Core Meta Data -->
-    	<meta name="author" content="Dejaime Antônio de Oliveira Neto">
-    	<meta name="description" content="DeepHive Corporation. We are here for you.">
-    	<meta name="keywords" content="Visual Novel, Hive, VN, game, videogame, story rich">
-
-        <title>DeepHive Corp.</title>
-
-        <!-- Behavioral Meta Data -->
-        <meta name="apple-mobile-web-app-capable" content="yes">
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-
-        <!-- Styles -->
-        <link rel="stylesheet" type="text/css" href="styles/styles.css"/>
-
-    </head>
-    <body>
-        <h1>Under Construction<br><a href="http://steamcommunity.com/sharedfiles/filedetails/?id=907583713">Vote for us on Greenlight!</a>
-	<br>
-	<iframe width="560" height="315" src="https://www.youtube.com/embed/hAqYYoZUbSI" frameborder="0" allowfullscreen></iframe>
-	</h1>
-        <div id="container" class="container">
-            <ul id="scene">
-
-              <!-- <li class="layer" data-depth="1.00"><img src="images/layer1.png"></li>
-              <li class="layer" data-depth="0.80"><img src="images/layer2.png"></li>
-              <li class="layer" data-depth="0.60"><img src="images/layer3.png"></li>
-              <li class="layer" data-depth="0.40"><img src="images/layer4.png"></li>
-              <li class="layer" data-depth="0.20"><img src="images/layer5.png"></li>
-              <li class="layer" data-depth="0.00"><img src="images/layer6.png"></li> -->
-            </ul>
-        </div>
-
-        <!-- Scripts -->
-        <script src="scripts/parallax.js"></script>
-        <script>
-
-        // Elements
-        var scene = document.getElementById('scene');
-        // Pretty simple huh?
-        var parallax = new Parallax(scene, {
-                relativeInput: true,
-                clipRelativeInput: true
-            });
-
-        </script>
-
-    </body>
+			</div>
+		</div>
+		<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+		<script>
+			window.onload = function() { document.body.className = ''; }
+			window.ontouchmove = function() { return false; }
+			window.onorientationchange = function() { document.body.scrollTop = 0; }
+		</script>
+	</body>
 </html>
